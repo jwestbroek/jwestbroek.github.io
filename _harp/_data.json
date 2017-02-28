@@ -1,6 +1,6 @@
 {
   "index": {
-    "layout": "../layouts/default",
+    "layout": "_layouts/default",
     "title": "LVOS"
   }
 }

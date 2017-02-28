@@ -1,12 +1,12 @@
 doctype
 html.no-js(lang="")
-  != partial( "../partials/html" )
+  != partial( "../_partials/html" )
   body(class='site')
-    != partial( "../partials/header" )
+    != partial( "../_partials/header" )
     main.site__content.document.block
       != yield
-    != partial( "../partials/menu" )
-    != partial( "../partials/footer" )
+    != partial( "../_partials/menu" )
+    != partial( "../_partials/footer" )
     link(rel="stylesheet" href="/main.css" type="text/css" media="screen")
     link(rel="stylesheet" href="/print.css" type="text/css" media="print")
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")

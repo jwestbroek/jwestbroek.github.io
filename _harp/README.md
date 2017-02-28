@@ -1,2 +1,2 @@
 # jwestbroek.github.io
-Personal website
+Personal HarpJS website
